@@ -1,0 +1,26 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.divisao {
+    border-top: dashed 5px red;
+    border-left: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 30px red;
+    background: #333;
+padding: 13px;
+margin: 30px 82px 30px 30px;
+
+}
+
+.outra{
+    margin: 30px 82px 30px 30px;
+}
+.agua{
+    padding: 25px;
+    background-color: #333;
+    text-decoration: none;
+}

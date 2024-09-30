@@ -1,0 +1,27 @@
+*{
+    margin:0px ;
+    padding: 0px;
+color: whitesmoke;
+}
+
+
+.box1{
+    width:100vw; /* Largura */
+    height: 50vh; /* altura */
+    background-color: rgb(0, 255, 4);
+}
+
+.box2{
+  /* em - rem */
+  /* VH - VW - VMIN - VMAX */
+
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(64, 0, 255);
+}
+
+.box3{
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(0, 179, 255);
+}

@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.primeiro{
+    float: left;
+    margin: 10px;
+    width: 25vw;
+}
+
+
+.segundo{
+    float:right ;
+    margin: 10px;
+    width: 25vw;
+}
+
+.borda{
+    border: solid 1px black;
+}

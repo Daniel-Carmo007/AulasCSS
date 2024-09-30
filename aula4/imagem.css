@@ -1,0 +1,10 @@
+body{
+    background-image: url(./img/growlithe.png);
+    border-radius: 600px;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    border-radius: 600px;
+}

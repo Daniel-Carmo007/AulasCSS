@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.conteiner{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: repeat(10,1fr );
+    grid-template-columns:repeat(7,1fr) ;
+    grid-template-areas: 
+    
+    "header header header header header header header"
+    "header header header header header header header"
+    "area area outra outra outra coisa coisa "
+    "main main main main main main main "
+    "main main main main main main main"
+    "main main main main main main main"
+    "main main main main main main main"
+    "antes antes antes antes antes final final"
+    "footer footer footer footer footer footer footer"
+    "footer footer footer footer footer footer footer";
+}
+
+.box1{
+    grid-area: header;
+    background-color: #cb27cb;
+    text-align: center;
+}
+
+.box2{
+grid-area: area;
+background-color: blue;
+text-align: center;
+}
+.box3{
+    grid-area: outra;
+    background-color: chartreuse;
+    text-align: center;
+}
+.box4{
+    grid-area: main;
+    background-color: deeppink;
+    text-align: center;
+}
+.box5{
+    grid-area: antes;
+    background-color: dodgerblue;
+    text-align: center;
+}
+.box6{
+    grid-area:final ;
+    background-color: darkred;
+    text-align: center;
+}
+.box7{
+    grid-area:footer ;
+background-color: rgb(39, 146, 84);
+text-align: center;
+}
+
+.box8{
+grid-area: coisa;
+background-color: blue;
+text-align: center;
+}

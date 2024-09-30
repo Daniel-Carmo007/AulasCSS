@@ -1,0 +1,41 @@
+*{
+
+}
+
+h1{
+    color: blue;
+}
+
+h1:visited{
+    color: chartreuse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+p{
+    color: crimson;
+}
+
+p:empty{
+color: blueviolet;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div:empty{
+    color: blueviolet;
+    border: 5px;
+}
+input:focus {
+    border: 2px solid #e24a4a; /* Adiciona uma borda azul ao campo de entrada quando está em foco */
+    background-color: #fae0e0; /* Muda a cor de fundo para um tom claro */
+}
+
+/* Pseudo classe :active para mudar a cor quando o link é clicado */
+a:active {
+    color: green;
+}
+
+/* Pseudo classe :focus para links com foco */
+a:focus {
+    outline: 2px dashed orange;
+}

@@ -1,0 +1,83 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#cordefundo1 {
+    background-color: brown;
+    /* order: 3; */
+    /* flex-grow: ; */
+    /* flex-shrink: ; */
+    /* flex-basis: ; */
+}
+
+#cordefundo2 {
+    background-color: blue;
+    /* order: 2; */
+    /* flex-grow: 5; */
+    /* flex-shrink: ; */
+   
+}
+
+
+#cordefundo3 {
+    background-color: aqua;
+    /* order: -1; */
+    /* flex-grow: ; */
+    /* flex-shrink: ; */
+   
+}
+
+
+
+
+
+
+
+.borda {
+    border: solid rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+}
+
+
+
+
+
+.principal {
+    border: solid rgb(9, 8, 8);
+    width: 1000px;
+    height: 800px;
+    padding: 20px 20px 20px 10px;
+    display: flex;
+    /* muda o layout do display */
+    flex-direction: row;
+    /* muda o comportamento do container */
+    /* flex-direction: row-reverse ;
+    flex-direction: column;
+    flex-direction: column-reverse;
+     */
+    /* Padrão da esquerda para direita */
+    /* direction: ltr; inverte o eixo */
+    /* direction: rtl;  */
+
+
+    /* faz a quebra dos elementos na linha ou coluna(flex-direction define o comportamento) */
+    /* flex-wrap: wrap; */
+    /*flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse;  */
+
+    /* equivalente a elementos anteriores */
+
+
+    /*Alinhamento seguindo a orientação do main axist */
+    /* justify-content: center; */
+
+
+    /* justify-content: end;
+flex-direction: center; */
+
+
+
+}

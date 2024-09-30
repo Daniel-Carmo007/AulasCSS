@@ -1,0 +1,20 @@
+/* 
+font-weight - deixa em negrito
+line-height - cria espaçamento 
+text-alling - alinha o texto
+text-shadow
+text-indent - cria ambientação para começo do paragrafo
+filter-op
+*/
+span{
+    font-weight: bold;
+    text-align: ;
+}
+article{
+    font-style:italic ;
+    color: orange;
+    text-align: right;
+}
+
+
+p{text-align: justify;}

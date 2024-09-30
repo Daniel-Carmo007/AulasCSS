@@ -1,0 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@media  screen and (481px) and (768px) {
+    .texto{
+       font-size: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+}

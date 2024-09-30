@@ -1,0 +1,13 @@
+p{
+    color: crimson;
+}
+
+ul p{
+color: blue;
+}
+/* nessa tag, eu expecifico que, todo paragrafo dentro da ul tera uma cor azul */
+
+li, p{
+    text-shadow: 10px 5px 5px burlywood;
+}
+/* quando eu coloco virgula eu falo que todos os <li> e <p> terão sombra, é tipo e em uma frase */

@@ -1,0 +1,23 @@
+h1{
+    text-shadow: 10px -10px 5px red;
+}
+
+.amarelinho{ color: yellow;}
+
+.italico{ font-style: italic;}
+
+#Seu{
+    color: blue;
+}
+
+#Nao{
+    color: crimson;
+}
+
+#Vaga{
+    color: darkmagenta;
+}
+
+#Sou{
+    color: darksalmon;
+}

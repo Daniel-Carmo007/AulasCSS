@@ -1,0 +1,57 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.conteiner {
+    height: 500px;
+    width: 700px;
+    margin: 50px auto;
+    background-color: silver;
+    border: dotted 1px #cb27cb;
+    display: grid;
+    /* grid-template-columns: 25% 25% 25% 25%; */
+    /* grid-template-columns - cria grids em colunas */
+    grid-template-columns: repeat(5, 20%);
+    /* com repeat eu posso repitir uma caluna de terminada vezes, o 1fr e a fraçao qu ele ira ocupar */
+
+
+
+    grid-template-rows: repeat(5, 1fr);
+
+    grid-template-areas:
+        "header header header header header"
+        "prop prop main main main"
+        "prop prop main main main  "
+        "prop prop main main main "
+        "footer footer footer footer footer ";
+}
+
+
+
+
+.box1 {
+    grid-area: header;
+    text-align: center;
+    background-color: blue;
+}
+
+.box2 {
+    grid-area: prop;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+.box3 {
+    text-align: center;
+    grid-area: main;
+    background-color: #800080;
+}
+
+.box4 {
+    text-align: center;
+    grid-area: footer;
+    background-color: darkgreen;
+}
